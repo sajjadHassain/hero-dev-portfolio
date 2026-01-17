@@ -4,46 +4,34 @@
     box-sizing: border-box;
 }
 
-/* shared style */
-
-.font-open-sans {
+/* shared style start heare */
+.font-open-sans{
   font-family: "Playfair Display", serif;
-  font-optical-sizing: auto;  
+  font-optical-sizing: auto; 
 }
+/* shared style end heare */
 
-.logo h2{
+.logo{
     font-size: 45px;
-    font-weight: bolder;
+    font-weight: 800;
 }
 
 .color-orange{
     color: #FD6E0A;
 }
 
-.btn{
-    background-color: #FD6E0A;
-    border: none;
-    padding: 18px 35px;
-    border-radius:5px;
-    font-size: 20px;
-    font-weight: bold;
-    color: white;
-}
-
-/* main style */
-
-header {
+/* main style start heare */
+header{
     background-color: #FFF8F3;
-    padding-top: 50px;   
+    padding-top: 30px;
 }
 
 nav{
-    width: 59%;
+    width: 71%;
     max-width: 1140px;
-    margin: 0px auto;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 nav .menu{
@@ -54,7 +42,28 @@ nav .menu{
 }
 
 nav .menu a{
-    font-size: 20px;
-    color: #474747;
     text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    color: #474747;
 }
+
+.btn{
+    background-color: #FD6E0A;
+    width: 150px;
+    height: 65px;
+    border-radius: 5px;
+    border: none;
+    padding: 18px 35px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+
+
+
